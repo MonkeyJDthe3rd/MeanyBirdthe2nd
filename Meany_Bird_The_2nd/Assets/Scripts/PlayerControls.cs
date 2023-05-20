@@ -23,7 +23,7 @@ public class PlayerControls : MonoBehaviour
         Time.timeScale = 1;
         rb = GetComponet<Rigidbody2D>();
         // Object Height equals the size of the height of the sprite
-        objectHeight = transform.GetComponet<SpriteRenederer>().bounds.size.y / 2;
+        objectHeight = transform.GetComponent<SpriteRenederer>().bounds.size.y / 2;
     }
 
     // Update is called once per frame
